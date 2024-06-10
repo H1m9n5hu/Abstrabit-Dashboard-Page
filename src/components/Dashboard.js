@@ -8,7 +8,6 @@ import shriramImage from "../assets/shriram.png";
 import blackIcon from "../assets/blackIcon.png";
 import techMahindraImage from "../assets/techMahindra.png";
 import redIcon from "../assets/redIcon.png";
-import timelineImage from "../assets/timeline.png";
 import PieChartWithCustomizedLabel from "./PieChartWithCustomizedLabel";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons';
@@ -53,7 +52,54 @@ const Dashboard = () => {
         </div>
         <div className="subCon2">
           <p style={{margin: '0', fontSize: '16px', fontWeight: 'bold'}}>FD Maturity Timeline</p>
-          <img src={timelineImage} style={{width: '750px', height: '169px', margin: '40px 0 20px 0'}} alt="FD Timeline" />
+          <div style={{display: 'flex', justifyContent: 'space-around', margin: '20px 0 10px 0'}}>
+            <div style={{fontSize: '16px', fontWeight: '500', color: '#1A1B1E', opacity: '0.5'}}>2024</div>
+            <div style={{fontSize: '16px', fontWeight: '500', color: '#1A1B1E', opacity: '0.5'}}>2025</div>
+            <div style={{fontSize: '16px', fontWeight: '500', color: '#1A1B1E', opacity: '0.5'}}>2026</div>
+          </div>
+          <div style={{display: 'flex', flexDirection: 'row', position: 'absolute'}}>
+            <div className="year2024">J</div>
+            <div className="year2024">F</div>
+            <div className="year2024">M</div>
+            <div className="year2024">A</div>
+            <div className="year2024">M</div>
+            <div className="year2024">J</div>
+            <div className="year2024">J</div>
+            <div className="year2024">A</div>
+            <div className="year2024">S</div>
+            <div className="year2024">O</div>
+            <div className="year2024">N</div>
+            <div className="year2024">D</div>
+            <div className="year2025">J</div>
+            <div className="year2025">F</div>
+            <div className="year2025">M</div>
+            <div className="year2025">A</div>
+            <div className="year2025">M</div>
+            <div className="year2025">J</div>
+            <div className="year2025">J</div>
+            <div className="year2025">A</div>
+            <div className="year2025">S</div>
+            <div className="year2025">O</div>
+            <div className="year2025">N</div>
+            <div className="year2025">D</div>
+            <div className="year2026">J</div>
+            <div className="year2026">F</div>
+            <div className="year2026">M</div>
+            <div className="year2026">A</div>
+            <div className="year2026">M</div>
+            <div className="year2026">J</div>
+            <div className="year2026">J</div>
+            <div className="year2026">A</div>
+            <div className="year2026">S</div>
+            <div className="year2026">O</div>
+            <div className="year2026">N</div>
+            <div className="year2026">D</div>
+          </div>
+          <hr className="lineOverlay"/>
+          <div className="overlayDiv4">Mahindra FD Plan 2</div>
+          <div className="overlayDiv3">Bajaj Finserv FD 1</div>
+          <div className="overlayDiv2">Shriram FD Plan 2</div>
+          <div className="overlayDiv1">Utkarsh FD 1</div>
         </div>
       </div>
       <div className="con2">
