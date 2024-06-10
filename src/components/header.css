@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 0 60px;
+  opacity: 1;
+}
+
+.listContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  font-family: "Apercu Pro", sans-serif;
+  font-weight: bold;
+  list-style: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  width: 45px;
+  height: 32px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 5px #0000000d;
+  border: 1px solid #4a4ed4;
+  color: #4a4ed4;
+  border-radius: 24px;
+  opacity: 1;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.supportButton {
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font-family: "Apercu Pro", sans-serif;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  width: 190px;
+  height: 140px;
+  margin: 6px 0 0 0;
+  padding: 25px 47px 27px 14.98px;;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #0000001A;
+  border-radius: 5px;
+  opacity: 1;
+  text-align: left;;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: left;
+    font-family: "Apercu Pro", sans-serif;
+    font-weight: bold;
+    color: #000000;
+    opacity: 0.7;
+  }
+
+.supportMenu {
+  position: absolute;
+  right: 0;
+  width: 190px;
+  height: 80px;
+  margin: 6px 0 0 0;
+  padding: 25px 10px 25px 10px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #0000001A;
+  border-radius: 5px;
+  opacity: 1;
+  text-align: left;;
+}
+
+.supportMenu a {
+  display: block;
+  padding: 0px 10px 2px 10px;
+  text-align: left;
+  font-family: "Apercu Pro", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #3B39D9;
+  opacity: 1;
+  text-decoration: none;;
+}
+
+.supportContent {
+    display: flex;
+}
